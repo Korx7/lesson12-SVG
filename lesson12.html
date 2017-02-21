@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" height="600" width="900" viewBox="0 0 900 600" preserveAspectRatio="xMidYMid meet">
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#C4C4C4;stop-opacity: 1"></stop>
+            <stop offset="50%" style="stop-color: #6B7F8A;stop-opacity: 1"></stop>
+            <stop offset="100%" style="stop-color:#C4C4C4;stop-opacity: 1"></stop>
+        </linearGradient>
+        <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#C4C4C4;stop-opacity: 1"></stop>
+            <stop offset="50%" style="stop-color: black;stop-opacity: 1"></stop>
+            <stop offset="100%" style="stop-color:#C4C4C4;stop-opacity: 1"></stop>
+        </linearGradient>
+         <pattern id="newpattern" x="5" y="6" width="20" height="20" patternUnits="userSpaceOnUse" stroke="#535353"  >
+        <circle cx="15" cy="5" r="5" fill="url(#innerPattern)"  fill-opacity="1" />
+             <circle cx="5" cy="15" r="5" fill="url(#innerPattern)"  fill-opacity="1" />
+
+    </pattern>
+        <radialGradient id="innerPattern" cx="50%" cy="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#A9A9A9;stop-opacity: 1;" ></stop>
+            <stop offset="100%" style="stop-color:#173037;stop-opacity: 1"></stop>
+        </radialGradient>
+        <radialGradient id="monitor" cx="50%" cy="50%" fx="180%" r="230%" fy="180%">
+        <stop offset="0%" style="stop-color:black;stop-opacity: 1;" ></stop>
+        <stop offset="50%" style="stop-color:black;stop-opacity: 1;" ></stop>
+            <stop offset="50.1%" style="stop-color:#747474;stop-opacity: 1;" ></stop>
+        <stop offset="100%" style="stop-color:#747474;stop-opacity:1;" ></stop>
+        </radialGradient>
+    </defs>
+    <path d="M 200 525 v-450 a 10 10 0 0 1 10 -10 h480 a 10 10 0 0 1 10 10 v450 a 10 10 0 0 1 -10 10 h-480 a 10 10 0 0 1 -10 -10
+             M 275 475 v-325 a 15 15 0 0 1 15 -15 h320 a 15 15 0 0 1 15 15 v325 a 15 15 0 0 1 -15 15 h-320 a 15 15 0 0 1 -15 -15
+             M 325 350 v-150 a 25 25 0 0 1 25 -25 h200 a 25 25 0 0 1 25 25 v150 a 25 25 0 0 1 -25 25 h-50 v25 h50 v25 h-200 v-25 h50 v-25 h-50 a 25 25 0 0 1 -25 -25 M350 200 h200 v150 h-200 v-150"
+                fill="url(#grad1)" fill-rule="evenodd" stroke="#474747"></path>
+    <rect x="350" y="200" width="200" height="150" fill="url(#monitor)" stroke-width="2" stroke="#474747"></rect><!--vnutr.pryamougolnik-->
+    <path d="M 275 475 v-325 a 15 15 0 0 1 15 -15 h320 a 15 15 0 0 1 15 15 v325 a 15 15 0 0 1 -15 15 h-320 a 15 15 0 0 1 -15 -15
+             M 325 350 v-150 a 25 25 0 0 1 25 -25 h200 a 25 25 0 0 1 25 25 v150 a 25 25 0 0 1 -25 25 h-50 v25 h50 v25 h-200 v-25 h50 v-25 h-50 a 25 25 0 0 1 -25 -25"
+                stroke="#474747" fill="url(#newpattern)" fill-rule="evenodd"></path>
+    <text fill="url(#grad2)" stroke="black"  font-size="45" font-family="Verdana" x="210" y="115">HOMEWORK</text>
+    <rect x="275" y="135" width="350" height="355" rx="15" ry="15" fill-opacity="0.2" fill="url(#grad2)"></rect>
+
+
+
+</svg>
+
+</body>
+</html>
